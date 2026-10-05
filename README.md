@@ -76,5 +76,10 @@ The tables are created automatically the first time the app starts.
 
 ## Roadmap
 
-- [ ] Data validation and proper error handling
+- [x] Data validation and proper error handling
 - [ ] Authentication
+
+## Validation & Error Handling
+- Request validation with Pydantic (`Field`, `EmailStr`)
+- `404 Not Found` for missing users/posts
+- `409 Conflict` for duplicate emails
